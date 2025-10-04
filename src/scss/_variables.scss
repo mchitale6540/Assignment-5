@@ -1,0 +1,22 @@
+@use "sass:math";
+$font-family: 'Roboto', sans-serif;
+$base-font-size: 1em;
+$line-height: 2em;
+
+$white: #FFF;
+$primary: #E65C43;
+$accent: #F25C43;
+$grey-1: #666;
+$grey-2: #F5F6F6;
+$dark: #30353D;
+
+
+$img-path: '../../images';
+
+$container: 940px;
+$half: math.div($container, 2);
+
+
+$bp-md: 959px;
+$bp-sm: 767px;
+$bp-xs: 459px;

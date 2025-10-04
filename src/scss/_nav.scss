@@ -1,0 +1,28 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+nav {
+  width: 540px;
+  height: 190px;
+  float: left;
+  text-align: right;
+
+  ul {
+    list-style: none;
+    margin-top: 95px;
+
+    li {
+      display: inline;
+      font-size: 0.8em;
+      margin-right: 10px;
+
+      a {
+        color: $primary;
+        text-decoration: none;
+        letter-spacing: -0.01em;
+
+        &:hover { color: $white; }
+      }
+    }
+  }
+}
